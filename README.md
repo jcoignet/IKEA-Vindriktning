@@ -75,7 +75,7 @@ Alimenter via le port USB-C. La device devrait être détectée dans l'HA et dan
 [15:04:43][D][sensor:126]: 'Particulate Matter 2.5µm Concentration': Sending state 183.00000 µg/m³ with 0 decimals of accuracy
 ```
 
-Dans le firmware IKEA, le palier de la LED jaune est 30de 30μg/m³ et rouge à partir de 100μg/m³.
+Dans le firmware IKEA, le palier de la LED jaune est 35 de 30μg/m³ et rouge à partir de 100μg/m³.
 ## Liens
 https://next.esphome.io/components/sensor/pm1006.html  
 https://www.instructables.com/Connecting-a-IKEA-Vindriktning-to-Home-Assistant-U/
