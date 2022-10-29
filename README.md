@@ -18,7 +18,7 @@ Il est possible de passer le ventilo sur du 3.3V pour le rendre plus silencieux,
 - Dans HA, installer l'addon [ESPHome](https://my.home-assistant.io/redirect/supervisor_addon/?addon=5c53de3b_esphome&repository_url=https%3A%2F%2Fgithub.com%2Fesphome%2Fhome-assistant-addon)
 - Dans ESPHome sur HA, créer la device. Remplir name (ex: ikea-vindriktning-01) et les creds du WIFI.
 - Suivre le procédé d'installation sur l'interface HA. La board doit être connectée au PC windows via le port micro usb (evidement avec un cable data).
-- Vérifier que la connection wifi fonctionne. Débrancher du PC et brancher sur secteur. Même si la device apparaît offline dans l'HA, vérifier si l'on recoit bien les logs dans `Logs > Wirelessly`.
+- Vérifier que la connection wifi fonctionne. Débrancher du PC et brancher sur secteur. Même si la device apparaît offline dans l'HA, vérifier si l'on recoit bien les logs dans `Logs > Wirelessly`. Si c'est le cas la connection est ok.
 - Dans ESPHome, modifier la configuration de l'appareil. 
 
 Il faut ajouter
